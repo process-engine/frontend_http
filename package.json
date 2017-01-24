@@ -1,0 +1,27 @@
+{
+  "name": "@process-engine-js/frontend_http",
+  "publishConfig": {
+    "registry": "https://www.npmjs.com"
+  },
+  "version": "1.0.0",
+  "description": "components for accessing the frontend via HTTP",
+  "license": "MIT",
+  "main": "dist/commonjs/index.js",
+  "typings": "dist/index.d.ts",
+  "contributors": [
+    "Sebastian Meier <sebastian.meier@5minds.de>",
+    "Patrick Pötschke <patrick.poetschke@quantusflow.com>",
+    "Simon Reymann <simon.reymann@quantusflow.com>"
+  ],
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
+
+
+
+
+
