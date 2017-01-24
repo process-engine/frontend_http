@@ -1,4 +1,4 @@
-import { IFrontendService } from 'frontend_contracts';
+import { IFrontendService } from '@process-engine-js/frontend_contracts';
 export declare class FrontendController {
     private _frontendService;
     constructor(frontendService: IFrontendService);
