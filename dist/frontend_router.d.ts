@@ -1,4 +1,4 @@
-import { BaseRouter } from '@5minds/http';
+import { BaseRouter } from '@process-engine-js/http';
 import { FrontendController } from "./frontend_controller";
 export declare class FrontendRouter extends BaseRouter {
     private _frontendController;

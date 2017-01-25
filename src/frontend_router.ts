@@ -1,4 +1,4 @@
-import {BaseRouter} from '@5minds/http';
+import {BaseRouter} from '@process-engine-js/http';
 import {FrontendController} from "./frontend_controller";
 import * as express from 'express';
 import * as path from 'path';
