@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://www.npmjs.com"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "components for accessing the frontend via HTTP",
   "license": "MIT",
   "main": "dist/commonjs/index.js",
@@ -14,6 +14,7 @@
     "Simon Reymann <simon.reymann@quantusflow.com>"
   ],
   "dependencies": {
+    "@process-engine-js/core_contracts": "^1.0.8",
     "@process-engine-js/frontend_contracts": "^1.0.0",
     "@process-engine-js/http": "^1.0.1",
     "express": "^4.14.0"
