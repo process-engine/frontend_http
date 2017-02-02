@@ -7,7 +7,7 @@ const routerDiscoveryTag = require('@process-engine-js/core_contracts').RouterDi
 function registerInContainer(container) {
 
   container.register('FrontendRouter', FrontendRouter)
-    .dependencies('FrontendController')
+    .dependencies('FrontendController', 'HttpExtension')
     .tags(routerDiscoveryTag)
     .singleton()
     .configure('frontend:router');

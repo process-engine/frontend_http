@@ -44,11 +44,13 @@ var express = require("express");
 var path = require("path");
 var FrontendRouter = (function (_super) {
     __extends(FrontendRouter, _super);
-    function FrontendRouter(frontendController) {
+    function FrontendRouter(frontendController, httpExtension) {
         var _this = _super.call(this) || this;
         _this._frontendController = undefined;
+        _this._httpExtension = undefined;
         _this.config = undefined;
         _this._frontendController = frontendController;
+        _this._httpExtension = httpExtension;
         return _this;
     }
     Object.defineProperty(FrontendRouter.prototype, "baseRoute", {
@@ -77,7 +79,7 @@ var FrontendRouter = (function (_super) {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 this.router.get('/', this.frontendController.getFrontendCallback());
-                this.router.use(express.static(path.resolve(this.config.appStaticPath)));
+                this.httpExtension.app.use(express.static(path.resolve(this.config.appStaticPath)));
                 return [2 /*return*/];
             });
         });
@@ -85,6 +87,13 @@ var FrontendRouter = (function (_super) {
     Object.defineProperty(FrontendRouter.prototype, "frontendController", {
         get: function () {
             return this._frontendController;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(FrontendRouter.prototype, "httpExtension", {
+        get: function () {
+            return this._httpExtension;
         },
         enumerable: true,
         configurable: true
