@@ -55,7 +55,7 @@ var FrontendRouter = (function (_super) {
     }
     Object.defineProperty(FrontendRouter.prototype, "baseRoute", {
         get: function () {
-            return this.config.baseRoute || 'frontend';
+            return (this.config.baseRoute || 'frontend') + '*';
         },
         enumerable: true,
         configurable: true
