@@ -16,7 +16,7 @@
   "dependencies": {
     "@process-engine-js/core_contracts": "^1.0.8",
     "@process-engine-js/frontend_contracts": "^1.0.0",
-    "@process-engine-js/http": "^1.0.1",
+    "@process-engine-js/http_node": "^1.0.0",
     "express": "^4.14.0"
   },
   "devDependencies": {
