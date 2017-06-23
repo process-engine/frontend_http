@@ -20,6 +20,7 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
+    "@process-engine-js/gulptraum": "^1.2.5",
     "gulp": "^3.9.1"
   }
 }
