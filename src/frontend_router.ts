@@ -22,7 +22,6 @@ export class FrontendRouter extends BaseRouter {
   }
 
   public async initialize(): Promise<void> {
-    await this.frontendController.initialize();
     await super.initialize();
   }
 
@@ -38,5 +37,4 @@ export class FrontendRouter extends BaseRouter {
   private get httpExtension(): any {
     return this._httpExtension;
   }
-
 }

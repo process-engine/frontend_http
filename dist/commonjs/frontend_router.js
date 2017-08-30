@@ -16,7 +16,6 @@ class FrontendRouter extends http_node_1.BaseRouter {
         return (this.config.baseRoute || 'frontend') + '*';
     }
     async initialize() {
-        await this.frontendController.initialize();
         await super.initialize();
     }
     async initializeRouter() {

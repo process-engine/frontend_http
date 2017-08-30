@@ -14,7 +14,6 @@ define(["require", "exports", "@process-engine-js/http_node", "express", "path"]
             return (this.config.baseRoute || 'frontend') + '*';
         }
         async initialize() {
-            await this.frontendController.initialize();
             await super.initialize();
         }
         async initializeRouter() {

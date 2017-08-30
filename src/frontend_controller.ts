@@ -15,8 +15,4 @@ export class FrontendController {
   public getFrontendCallback(): any {
     return this.frontendService.getFrontend();
   }
-
-  public async initialize(): Promise<void> {
-    return this.frontendService.initialize();
-  }
 }

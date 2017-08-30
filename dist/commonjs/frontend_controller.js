@@ -11,9 +11,6 @@ class FrontendController {
     getFrontendCallback() {
         return this.frontendService.getFrontend();
     }
-    async initialize() {
-        return this.frontendService.initialize();
-    }
 }
 exports.FrontendController = FrontendController;
 

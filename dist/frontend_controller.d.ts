@@ -4,5 +4,4 @@ export declare class FrontendController {
     constructor(frontendService: IFrontendService);
     private readonly frontendService;
     getFrontendCallback(): any;
-    initialize(): Promise<void>;
 }
