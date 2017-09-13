@@ -1,14 +1,14 @@
 import {BaseRouter, HttpExtension} from '@process-engine-js/http_node';
-import {FrontendController} from "./frontend_controller";
 import * as express from 'express';
 import * as path from 'path';
+import {FrontendController} from './frontend_controller';
 
 export class FrontendRouter extends BaseRouter {
 
   private _frontendController: FrontendController = undefined;
   private _httpExtension: HttpExtension = undefined;
 
-  config: any = undefined;
+  public config: any = undefined;
 
   constructor(frontendController: FrontendController, httpExtension: HttpExtension) {
     super();
