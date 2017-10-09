@@ -14,13 +14,13 @@
     "Simon Reymann <simon.reymann@quantusflow.com>"
   ],
   "dependencies": {
-  "@essential-projects/core_contracts": "^0.1.0",
-  "@process-engine/frontend_contracts": "^0.1.0",
-  "@essential-projects/http_node": "^0.1.0",
+    "@essential-projects/core_contracts": "^0.1.0",
+    "@process-engine/frontend_contracts": "^0.1.0",
+    "@essential-projects/http_node": "^0.1.0",
     "express": "^4.14.0"
   },
   "devDependencies": {
-  "@essential-projects/tslint-config": "^0.1.0",
+    "@essential-projects/tslint-config": "^0.1.0",
     "@types/express": "^4.0.37",
     "@types/node": "^8.0.27",
     "gulp": "^3.9.1",
