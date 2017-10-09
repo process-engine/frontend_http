@@ -1,4 +1,4 @@
-import {BaseRouter, HttpExtension} from '@process-engine-js/http_node';
+import {BaseRouter, HttpExtension} from '@essential-projects/http_node';
 import * as express from 'express';
 import * as path from 'path';
 import {FrontendController} from './frontend_controller';

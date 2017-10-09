@@ -2,7 +2,7 @@
 
 const FrontendRouter = require('./dist/commonjs/index').FrontendRouter;
 const FrontendController = require('./dist/commonjs/index').FrontendController;
-const routerDiscoveryTag = require('@process-engine-js/core_contracts').RouterDiscoveryTag;
+const routerDiscoveryTag = require('@essential-projects/core_contracts').RouterDiscoveryTag;
 
 function registerInContainer(container) {
 
