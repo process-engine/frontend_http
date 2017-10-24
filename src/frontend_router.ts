@@ -18,7 +18,9 @@ export class FrontendRouter extends BaseRouter {
   }
 
   public get baseRoute(): string {
-    return (this.config.baseRoute || 'frontend') + '*';
+    const baseRoute: string = (this.config.baseRoute || 'frontend');
+
+    return `${baseRoute}*`;
   }
 
   public async initialize(): Promise<void> {

@@ -1,9 +1,9 @@
 {
-  "name": "@process-engine/frontend_http",
+  "name": "@quantusflow/frontend_http",
   "publishConfig": {
     "registry": "https://www.npmjs.com"
   },
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "components for accessing the frontend via HTTP",
   "license": "MIT",
   "main": "dist/commonjs/index.js",
@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "@essential-projects/core_contracts": "^0.1.0",
-    "@process-engine/frontend_contracts": "^0.1.0",
+    "@quantusflow/frontend_contracts": "^0.1.0",
     "@essential-projects/http_node": "^0.1.0",
     "express": "^4.14.0"
   },

@@ -1,4 +1,4 @@
-import {IFrontendService} from '@process-engine/frontend_contracts';
+import {IFrontendService} from '@quantusflow/frontend_contracts';
 
 export class FrontendController {
 
