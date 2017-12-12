@@ -4,7 +4,7 @@
     "registry": "https://www.npmjs.com"
   },
   "version": "0.1.1",
-  "description": "components for accessing the frontend via HTTP",
+  "description": "Components for accessing the frontend via HTTP",
   "license": "MIT",
   "main": "dist/commonjs/index.js",
   "typings": "dist/index.d.ts",
