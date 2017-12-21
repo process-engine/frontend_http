@@ -1,8 +1,8 @@
 'use strict';
 
-const FrontendRouter = require('./dist/commonjs/index').FrontendRouter;
-const FrontendController = require('./dist/commonjs/index').FrontendController;
-const routerDiscoveryTag = require('@essential-projects/core_contracts').RouterDiscoveryTag;
+var FrontendRouter = require('./dist/commonjs/index').FrontendRouter;
+var FrontendController = require('./dist/commonjs/index').FrontendController;
+var routerDiscoveryTag = require('@essential-projects/core_contracts').RouterDiscoveryTag;
 
 function registerInContainer(container) {
 
